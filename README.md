@@ -3,7 +3,7 @@
 The script begins by saving the current working directory and loads the packages that will be used (data.table, plyr and dplyr)
 
 The first step (creating the data set) is performed throught 2 functions:
-    my_read(): uses the fread function of data.table to read into the 6 files containing the data. Due to lexicla scoping we have to use the '<<-' to be able to use the variable in the following parts of the script
+    my_read(): uses the fread function of data.table to read into the 6 files containing the data. Due to lexical scoping we have to use the '<<-' to be able to use the variable in the following parts of the script
     
   my_merge(): uses the variables definied in my_read() to cbind the subject, X and y data. We end with with 2 data sets, one for the training, the other for the testing
   We then rbind those two data sets to create the complete data_set
