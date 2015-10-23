@@ -6,6 +6,7 @@ run_analysis <- function() {
 	library(plyr)
 	library(dplyr)
 
+	setwd("UCI HAR Dataset")
 	
 ## 1.Merges the training and the test sets to create one data set.
 
