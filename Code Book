@@ -23,8 +23,8 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-The mean of a measurement is labeled with 'Mean' at the end of name of the measurement.
-The standard deviation of a measurement is labeled with 'Std' at the end of name of the measurement.
+The mean of a measurement is labeled with 'Mean' at the end of name of the measurement (but before the axe (X, Y or Z) if any).
+The standard deviation of a measurement is labeled with 'Std' at the end of name of the measurement (but before the axe (X, Y or Z) if any).
 
 
 4. "value": gives the value corresponding to each 'variable', for each 'activity' and each 'subject'.
