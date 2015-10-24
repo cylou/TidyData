@@ -1,1 +1,30 @@
+The Tidy_Data.txt data set includes the following variables:
+1. "subject": is the identifier of the subject who carried out the experiment, ranges from 1 to 30.
 
+2. "activity": is the activity performed by the subject. 6 activities are labelled: WALKING, WALKING_UPSTAIRS,
+      WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
+
+3. "variable": labels the mean and standard deviation for the following measurement.
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+The mean of a measurement is labeled with 'Mean' at the end of name of the measurement.
+The standard deviation of a measurement is labeled with 'Std' at the end of name of the measurement.
+
+
+4. "value": gives the value corresponding to each 'variable', for each 'activity' and each 'subject'.
